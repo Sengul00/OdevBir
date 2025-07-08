@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favori Süper Kahramanın Web Sayfası</title>
+    <!-- Örnek: Poppins fontu -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+    <style>
+        .gonder-btn {
+          background-color: #4CAF50;     /* Arkaplan rengi */
+          color: white;                  /* Yazı rengi */
+          padding: 12px 24px;            /* Buton iç boşlukları */
+          border: none;                  /* Kenarlık kaldır */
+          border-radius: 8px;            /* Köşeleri yumuşat */
+          cursor: pointer;               /* Üzerine gelince el işareti */
+          font-size: 16px;               /* Yazı boyutu */
+          transition: background-color 0.3s ease;
+        }
+      
+        .gonder-btn:hover {
+          background-color: #45a049;     /* Üzerine gelince renk değişimi */
+        }
+      </style>
+</head>
+<body>
+    
+    <header><h1>Altı Super Kahraman</h1></header>
+    <main><ul><li><a href="genelBilgi.html">Genel Bilgi</a></li>
+    <li><a href="konu.html">Konu</a></li>
+    <li><a href="kahramanlar.html">Kahramanlar</a></li>
+    <li><a href="https://www.hdfilmcehennemi.nl/6-super-kahraman-hd-izle-8/">İzle</a></li></ul></main>
+    <section>
+        <img width="400px" src="img/Big-Hero-6-Characters-Wallpaper-designbolts1.jpg" alt="">
+    </section><br><br><br>
+    <section><h3>Kahraman Ekibine Katıl!</h3>
+        <form>
+        <label for="isim">İsim:</label><br>
+        <input type="text" id="isim" name="isim" placeholder="Adınızı giriniz" required><br><br>
+        <label for="soyisim">Soyisim:</label><br>
+        <input type="text" id="soyisim" name="soyisim" placeholder="Soyadınızı giriniz" required><br><br>
+        <label for="kahraman">Süper kahraman adı:</label><br><input type="text" placeholder="Kahraman adı giriniz"required><br><br>
+        <label for="güc">En sevdiğiniz süper güç:</label><br><input type="text" placeholder="Güç giriniz" required><br><br>
+        <label for="basvuru">Başvuru Mesajı:</label><br><textarea name="" id="" cols="30" rows="10" placeholder="Mesaj giriniz" required></textarea><br><br>
+        <button class="gonder-btn" type="submit">GÖNDER</button>
+      </form></section>
+</body>
+</html>
