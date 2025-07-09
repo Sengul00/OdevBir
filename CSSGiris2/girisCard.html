@@ -7,17 +7,18 @@
     <style>
         body{
             all: unset;
-            color:  #141414;
+            background-color:  #141414;
         }
         .kutu{
             background-color:  #1f1f1f;
             width: 300px;
-            height: 100px;
+            height: 450px;
             margin: auto;
             border-radius: 12px;
             padding: 16px;
             color: white;
             font-family: sans-serif;
+            font-size: small;
             text-align: center;
             margin-top: 32px;
         }
@@ -33,28 +34,51 @@
         .kutu .isim{
             margin-top: 16px;
             display: block;
+            color: ;
         }
 
         .kutu .adres{
             color: #94af40;
             display: block;
             margin-top: 8px;
+            margin-bottom: 12px;
         }
+        
+        .kutu a{
+            all: unset;
+            display: inline-flex;
+            background-color: #323131;
+            width: 250px;
+            height: 30px;
+            border-radius: 12px;
+            padding: 5px;
+            color: white;
+            margin: auto;
+            margin-top: 12px;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+        }
+        
+       
     </style>
 </head>
 <body>
     <div class="kutu">
-        <img src="/Users/sengulbalta/Desktop/Siliconmade/CSSGiris2/Şengül.jpeg" alt="profil">
-        <span class="isim">Şengül Balta</span>
+        <img src="img/WhatsApp Image 2025-07-09 at 16.03.38.jpeg" alt="profil">
+        <span class="isim"><b>Şengül Balta</b></span>
         <span class="adres">İstanbul, Türkiye</span>
         <span class="slogan">"Frontend developer and avid reader."</span>
         
-        <button><a href="https://github.com/Sengul00">GitHub</a></button>
-        <button><a href="https://github.com/Sengul00">Frontend Developer</a></button>
+        <a class="github" href="https://github.com/Sengul00"><b>GitHub</b></a>
 
-        <button> <a href="https://www.linkedin.com/feed/">LinkedIn</a></button>
-        <button><a href="https://x.com">Twitter</a></button>
-        <button><a href="https://www.instagram.com/balta0052/">Instagram</a></button>
+        <a class="unvan" href="https://github.com/Sengul00"><b>Frontend Developer</b></a>
+
+        <a class="linkedin" href="https://www.linkedin.com/feed/"><b>LinkedIn</b></a>
+        
+        <a class="twitter" href="https://x.com"><b>Twitter</b></a>
+        
+        <a class="instagram" href="https://www.instagram.com/balta0052/"><b>Instagram</b></a>
     </div>
 </body>
 </html>
