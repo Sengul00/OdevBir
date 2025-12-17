@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Bugün Ne Yapalım?",
+    "slug": "bugunNeYapalim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFD1DC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sengulbalta.bugunNeYapalim"
+    },
+    "android": {
+      "package": "com.sengulbalta.bugunNeYapalim",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFD1DC"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fddb8f24-d93a-4820-9890-559af73bec35"
+      }
+    }
+  }
+}
